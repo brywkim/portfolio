@@ -49,6 +49,8 @@
 .about-projects div> p{
 	font-size: .8em;
 	color: #a5a9b2;
+	display: flex;
+	flex-direction: column;
 }
 
 
