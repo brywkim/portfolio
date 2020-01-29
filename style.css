@@ -1,3 +1,5 @@
+.about{height:100vh;display:flex;position:absolute}.about-title{width:300px;height:300px;display:flex;margin-top:15em;margin-left:5em;margin-right:5em;display:flex}.about-info{display:flex;margin-top:25em}.about-info{position:absolute;margin-left:5em;margin-top:28em}.about-projects{width:1000px;overflow:scroll;scroll-behavior:smooth}.about-projects div{height:600px;display:flex;flex-direction:column;justify-content:space-around;padding-left:1rem}.about-projects div>p{font-size: .8em;color:#a5a9b2}.about-projects div:nth-child(1){background-color:#7887AB}.about-projects div:nth-child(2){background-color:#4F628E}.about-projects div:nth-child(3){background-color:#2E4172}h1{font-size:2.5rem;color:#4A4A4A}h2{font-size:1rem;color:#4A4A4A}h3{font-size:1rem;color:#fafafa}
+
 .about{
 	height: 100vh;
 	display: flex;
