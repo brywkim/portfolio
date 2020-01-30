@@ -4,70 +4,85 @@ html{
   height: 100%;
   font-family: 'Montserrat', sans-serif;
 
-  background: no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .about{
 	height: 100vh;
 	display: flex;
-	position: absolute;
+	flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
 .about-title{
-	width: 300px;
-	height: 300px;
+	width: 70%;
+	height: 500px;
 	display: flex;
-	margin-top: 15em;
+	margin-top: 10em;
 	margin-left: 5em;
-	margin-right: 5em;
+	margin-right: 10em;
+
+}
+
+.about-info{
 	display: flex;
-
-
-}
-
-.about-info{
-  display: flex;
-  margin-top: 25em;
-}
-
-.about-info{
 	position: absolute;
-	margin-left: 5em;
-	margin-top: 28em;
+	margin-left: 5.1em;
+	margin-top: 25em;
 
 }
 
 
 .about-projects{
-	width: 1000px;
+	width: 100%;
 	overflow: scroll;
 	scroll-behavior: smooth;
+
 }
 
 .about-projects div{
-	height: 600px;
+	height: 90vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	padding-left: 1rem;
+/*	justify-content: space-around;*/
 }
 
 .about-projects div> p{
 	font-size: .8em;
-	color: #a5a9b2;
+	color: #4A4A4A;
 	display: flex;
 	flex-direction: column;
+	padding-left: 3rem;
+	text-align: left;
+	width: 70%;
+}
+
+.about-projects div> img{
+  display: block;
+  width: 70%;
+  margin: 25px 0px 75px 15%;
+  text-align: left;
+
 }
 
 
 
 .about-projects div:nth-child(1){
-	background-color: #7887AB
+	background-color: #B9D6FE;
+}
+.about-projects div:nth-child(2){
+	background-color: #FEEDB9
+}
+.about-projects div:nth-child(3){
+	background-color: #FEB9B9	
+}
+.about-projects div:nth-child(4){
+	background-color: #B7E8A5	
+}
+
+		/*blue colors*/
+/*.about-projects div:nth-child(1){
+	background-color: #7887AB;
 }
 .about-projects div:nth-child(2){
 	background-color: #4F628E
@@ -75,6 +90,9 @@ html{
 .about-projects div:nth-child(3){
 	background-color: #2E4172	
 }
+.about-projects div:nth-child(4){
+	background-color: #7887AB	
+*/
 
 
 
@@ -91,5 +109,7 @@ h2 {
 h3 {
 	font-size: 1rem;
 	color: #fafafa;
+	padding-top: 3rem;
+	padding-left: 3rem;
 }
 
