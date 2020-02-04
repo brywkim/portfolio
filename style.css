@@ -41,7 +41,8 @@ html{
 }
 
 .about-projects div{
-	height: 90vh;
+	height: 70vh;
+	
 	display: flex;
 	flex-direction: column;
 /*	justify-content: space-around;*/
@@ -60,7 +61,7 @@ html{
 .about-projects div> img{
   display: block;
   width: 70%;
-  margin: 25px 0px 75px 15%;
+  margin: 1px 0px 15px 15%;
   text-align: left;
 
 }
@@ -98,17 +99,18 @@ html{
 
 h1 {
 	font-size: 2.5rem;
-	color: #4A4A4A;
+	color: #2E3C4E;
 }
 
 h2 {
-	font-size: 1rem;
+	font-size: 1.1rem;
 	color: #4A4A4A;
 }
 
 h3 {
-	font-size: 1rem;
-	color: #fafafa;
+	font-size: .8rem;
+	color: #4A4A4A;
+	font-weight: bold;
 	padding-top: 3rem;
 	padding-left: 3rem;
 }
