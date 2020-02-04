@@ -15,7 +15,7 @@ html{
 }
 
 .about-title{
-	width: 70%;
+	width: 50%;
 	height: 500px;
 	display: flex;
 	margin-top: 10em;
@@ -42,7 +42,6 @@ html{
 
 .about-projects div{
 	height: 70vh;
-	
 	display: flex;
 	flex-direction: column;
 /*	justify-content: space-around;*/
