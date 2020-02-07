@@ -99,6 +99,20 @@ html{
 	background-color: #7887AB	
 */
 
+.button {
+         background-color: #26466d;
+         /*background-image: url();*/
+         border: none;
+         border-radius: 5px ;
+         color: white;
+         padding: 10px 20px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+         }
 
 
 h1 {
